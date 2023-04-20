@@ -3,7 +3,7 @@ Http server made in node and express used for logging data
 
 ## Usage
 
-Download compiled version for windows or wine [here]().
+Download compiled version for windows or wine [here](https://github.com/Josakko/HttpServer/releases/tag/v1).
 
 ## Need Help?
 
