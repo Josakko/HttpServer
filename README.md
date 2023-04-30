@@ -5,6 +5,8 @@ Http server made in node and express used for logging data
 
 Download compiled version for windows or wine [here](https://github.com/Josakko/HttpServer/releases/tag/v1).
 
+### How do I use this server outside of my network?
+
 ## Need Help?
 
 If you need help contact me on my [discord server](https://discord.gg/xgET5epJE6).
