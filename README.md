@@ -16,7 +16,7 @@ To do this, follow these steps:
 4. Add a new rule to forward incoming requests on port 8080 (or whatever port your HttpServer is listening on) to the IP address of the computer running the server.
 
 Save the settings and restart your router.
-Once you've done this, you should be able to access the HttpServer from outside your network by typing your public IP address (which you can find by searching "what is my ip" in Google) into a web browser. Note that your ISP may block incoming traffic on port 80, in which case you may need to use a different port or contact your ISP to request that they unblock it.
+Once you've done this, you should be able to access the HttpServer from outside your network by typing your public IP address (which you can find by visiting [this](https://api.ipify.org) website). Note that your ISP may block incoming traffic on port 8080, in which case you may need to use a different port or contact your ISP to request that they unblock it.
 
 - #### Optional configuration
 
