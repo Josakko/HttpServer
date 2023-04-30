@@ -18,7 +18,7 @@ To do this, follow these steps:
 Save the settings and restart your router.
 Once you've done this, you should be able to access the HttpServer from outside your network by typing your public IP address (which you can find by searching "what is my ip" in Google) into a web browser. Note that your ISP may block incoming traffic on port 80, in which case you may need to use a different port or contact your ISP to request that they unblock it.
 
-#### Optional configuration
+- #### Optional configuration
 
 By default, most ISPs assign dynamic IP addresses, which means that your IP address can change each time you connect to the internet. This can be problematic if you want to use your device as a server because it means that the IP address of your server will change each time your ISP assigns a new address to your device.
 
