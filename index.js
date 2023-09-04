@@ -46,9 +46,10 @@ function handleRequest(req, res) {
     request++;
     console.log(`[+] Request number ${request} received from ${getSenderIp(req)}`);
     fs.writeFileSync(`log_${time}.txt`, req.body.content);
-    res.send();
+    res.sendStatus(201);
   } catch (e) {
     console.log(`[-] Failed to process request: ${e}`);
+    res.sendStatus(500)
   }
 }
 
