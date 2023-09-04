@@ -2,6 +2,6 @@ import requests
 import json
 
 payload = json.dumps({"content": "This is test"})
-res = requests.post(url="http://89.172.248.156", data=payload, headers={"Content-Type": "application/json"}) #89.172.248.156
+res = requests.post(url="http://xxxxxx", data=payload, headers={"Content-Type": "application/json"})
 
 print(res.status_code)
